@@ -72,7 +72,7 @@ class _CommunityDetailsScreenState
         await FirebaseFirestore
             .instance
             .collection(
-                "community_requests")
+                "communityJoinRequests")
             .where(
               "communityId",
               isEqualTo:
