@@ -74,7 +74,7 @@ class _ApplyCommunitySheetState
     await FirebaseFirestore
         .instance
         .collection(
-            "community_requests")
+            "communityJoinRequests")
         .add({
 
       "communityId":
